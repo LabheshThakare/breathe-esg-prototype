@@ -1,0 +1,12 @@
+report_id,expense_entry_id,employee_id,employee_region,booking_platform,transaction_date,trip_start_date,trip_end_date,category,vendor,origin,destination,distance_value,distance_unit,nights,rooms,vehicle_class,fuel_type,amount,currency,approval_status,merchant_reference,notes
+RPT-2026-1001,EXP-90001,E1042,US,Concur,2026-01-06,2026-01-12,2026-01-12,Flight,United Airlines,AUS,SFO,1504,mi,,,,"",482.18,USD,Approved,0167823432,"Round trip represented as separate one-way legs"
+RPT-2026-1001,EXP-90002,E1042,US,Concur,2026-01-06,2026-01-15,2026-01-15,Flight,United Airlines,SFO,AUS,1504,mi,,,,"",516.44,USD,Approved,0167823433,"Return leg"
+RPT-2026-1002,EXP-90011,E2217,DE,Concur,2026-01-09,2026-01-20,2026-01-20,Flight,Lufthansa,BER,LHR,,,,,,"",268.30,EUR,Approved,22019477,"Missing distance; should derive from airport codes"
+RPT-2026-1002,EXP-90012,E2217,DE,Concur,2026-01-09,2026-01-22,2026-01-22,Flight,Lufthansa,LHR,BER,,,,,,"",241.80,EUR,Approved,22019478,"Missing distance; should derive from airport codes"
+RPT-2026-1002,EXP-90013,E2217,DE,Concur,2026-01-20,2026-01-20,2026-01-22,Hotel,Premier Inn London,,,,"",2,1,,"",318.00,GBP,Approved,HOT-778120,"Hotel emissions by country-night, not spend"
+RPT-2026-1003,EXP-90021,E3309,IN,Navan,2026-01-14,2026-01-28,2026-01-28,Flight,IndiGo,PNQ,DEL,1170,km,,,,"",14620.00,INR,Approved,6E-443210,"Domestic short-haul"
+RPT-2026-1003,EXP-90022,E3309,IN,Navan,2026-01-28,2026-01-28,2026-01-28,Ground Transport,Uber,,,38,km,,,Sedan,Gasoline,1840.00,INR,Approved,UB-992810,"App ride distance supplied"
+RPT-2026-1004,EXP-90031,E1188,GB,Concur,2026-01-17,2026-02-03,2026-02-03,Rail,LNER,LDS,LON,272,km,,,,"",86.20,GBP,Approved,LNER-88021,"Rail should be separate from ground car factors"
+RPT-2026-1005,EXP-90041,E1042,US,Concur,2026-01-19,2026-02-06,2026-02-08,Hotel,Marriott San Francisco,,,,"",2,1,,"",612.91,USD,Pending,HOT-447721,"Pending platform approval should be review-blocked"
+RPT-2026-1006,EXP-90051,E4402,US,Concur,2026-01-20,2026-02-09,2026-02-09,Ground Transport,Hertz,,,96,mi,,,SUV,Gasoline,188.40,USD,Approved,HZ-661029,"Rental vehicle distance from receipt"
+RPT-2026-1007,EXP-90061,E3309,IN,Navan,2026-01-25,2026-02-14,2026-02-14,Flight,Air India,XXX,BOM,,,,,,"",9800.00,INR,Approved,AI-774411,"Invalid airport code should fail validation"

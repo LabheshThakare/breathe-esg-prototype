@@ -1,0 +1,8 @@
+utility_name,account_number,meter_number,facility_code,service_address,bill_number,billing_period_start,billing_period_end,read_type,usage_quantity,usage_unit,demand_kw,tariff_code,rate_schedule,total_bill_amount,currency,renewable_energy_pct,estimated_bill,exported_at
+Austin Energy,AE-7750192,MTR-AUS-10-01,AUS-10,"1180 Metric Blvd, Austin, TX",AE2026-001872,2025-12-18,2026-01-20,Actual,48210,kWh,188.4,ELG-L,"Large General Service",6128.44,USD,18,false,2026-02-01T14:22:00Z
+Austin Energy,AE-7750192,MTR-AUS-10-02,AUS-10,"1180 Metric Blvd, Austin, TX",AE2026-001873,2025-12-18,2026-01-20,Actual,12540,kWh,42.8,ELG-L,"Large General Service",1510.33,USD,18,false,2026-02-01T14:22:00Z
+Vattenfall,VT-4402991,DE-BER-00981,BER-01,"Am Borsigturm 12, Berlin",VT2026-01088,01.01.2026,31.01.2026,Actual,73800,kWh,231.0,GEWERBE-HT,"Gewerbe Hochspannung",19628.10,EUR,42,false,2026-02-03T09:10:00Z
+MSEDCL,MS-1184007,IN-PUN-7713,PUN-03,"MIDC Phase II, Pune",MS2026-22219,2026/01/05,2026/02/04,Estimated,91200,kWh,310.5,HT-I,"HT Industrial",842155.00,INR,7,true,2026-02-07T05:40:00Z
+Northern Powergrid,NPG-551882,GB-LDS-55620,LDS-20,"Unit 6 Whitehall Rd, Leeds",NPG2026-8891,2026-01-12,2026-02-11,Actual,26400,kWh,96.2,HV2,"Half-hourly HV",7854.18,GBP,31,false,2026-02-13T11:05:00Z
+Austin Energy,AE-7750192,MTR-AUS-10-01,AUS-10,"1180 Metric Blvd, Austin, TX",AE2026-001990,2026-01-20,2026-02-17,Actual,0,kWh,0.0,ELG-L,"Large General Service",0.00,USD,18,false,2026-02-28T14:22:00Z
+Unknown Utility,UN-000000,MTR-MISSING-1,UNKNOWN,"Unknown service address",UN2026-0001,2026-01-01,2026-01-31,Actual,10400,kWh,33.2,COMM,"Commercial",1160.00,USD,0,false,2026-02-01T00:00:00Z

@@ -1,0 +1,5 @@
+mandt,werks,plant_name,country,region,facility_code,notes
+100,DE01,Berlin Assembly Plant,DE,BE,BER-01,"SAP plant configured with German headers"
+100,US10,Austin Components Plant,US,TX,AUS-10,"Primary US manufacturing site"
+100,IN03,Pune Packaging Site,IN,MH,PUN-03,"Uses mixed local procurement units"
+100,GB20,Leeds Distribution Center,GB,YKS,LDS-20,"Warehouse and fleet fueling depot"

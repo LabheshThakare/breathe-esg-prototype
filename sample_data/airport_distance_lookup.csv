@@ -1,0 +1,7 @@
+origin,destination,distance_km,source_note
+AUS,SFO,2420,"Great-circle approximation for sample fixture"
+SFO,AUS,2420,"Great-circle approximation for sample fixture"
+BER,LHR,935,"Great-circle approximation for sample fixture"
+LHR,BER,935,"Great-circle approximation for sample fixture"
+PNQ,DEL,1170,"Fixture uses booking-platform supplied distance"
+LDS,LON,272,"Rail station/city-code approximation"
