@@ -22,4 +22,3 @@ services:
 
 databases:
   - name: breathe-esg-db
-  - plan: free
